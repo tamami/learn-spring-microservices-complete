@@ -1,4 +1,4 @@
-package lab.aikibo.entity;
+package lab.aikibo.etc;
 
 import lombok.Data;
 

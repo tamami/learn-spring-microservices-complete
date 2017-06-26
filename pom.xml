@@ -8,5 +8,6 @@
   <name>learn-spring-microservices-complete</name>
   <modules>
     <module>website</module>
+    <module>search</module>
   </modules>
 </project>

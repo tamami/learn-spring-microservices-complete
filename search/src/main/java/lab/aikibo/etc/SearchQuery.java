@@ -1,9 +1,9 @@
-package lab.aikibo.entity;
+package lab.aikibo.etc;
 
 import lombok.Data;
 
 /**
- * Created by tamami on 25/06/17.
+ * Created by tamami on 26/06/17.
  */
 @Data
 public class SearchQuery {
@@ -21,7 +21,6 @@ public class SearchQuery {
         this.flightDate = flightDate;
     }
 
-    @Override
     public String toString() {
         return "SearchQuery [origin=" + origin + ", destination=" + destination + ", flightDate=" + flightDate + "]";
     }

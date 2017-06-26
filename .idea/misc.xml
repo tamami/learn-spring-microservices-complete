@@ -69,6 +69,7 @@
       <list>
         <option value="$PROJECT_DIR$/website/pom.xml" />
         <option value="$PROJECT_DIR$/search/pom.xml" />
+        <option value="$PROJECT_DIR$/fares/pom.xml" />
       </list>
     </option>
   </component>

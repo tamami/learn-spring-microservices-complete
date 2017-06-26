@@ -9,5 +9,6 @@
   <modules>
     <module>website</module>
     <module>search</module>
+    <module>fares</module>
   </modules>
 </project>

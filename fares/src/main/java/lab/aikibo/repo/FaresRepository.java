@@ -8,6 +8,6 @@ import org.springframework.data.jpa.repository.JpaRepository;
  */
 public interface FaresRepository extends JpaRepository<Fare, Long> {
 
-    public Fare getFareByFlightNumberAndFlightDate(String flightNumber, String flightDate);
+    Fare getFareByFlightNumberAndFlightDate(String flightNumber, String flightDate);
 
 }

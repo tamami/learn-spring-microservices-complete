@@ -5,12 +5,14 @@ import lab.aikibo.repo.CheckinRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
 import java.util.Date;
 
 /**
  * Created by tamami on 26/06/17.
  */
+@Component
 public class CheckinComponent {
 
     private static final Logger logger = LoggerFactory.getLogger(CheckinComponent.class);
@@ -18,11 +20,14 @@ public class CheckinComponent {
     private CheckinRepository checkinRepository;
     private Sender sender;
 
+    public CheckinComponent() { super(); }
+
     @Autowired
     public CheckinComponent(CheckinRepository checkinRepository, Sender sender) {
         this.checkinRepository = checkinRepository;
         this.sender = sender;
     }
+
 
     public long checkIn(CheckInRecord checkIn) {
         checkIn.setCheckInTime(new Date());

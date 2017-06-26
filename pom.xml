@@ -10,5 +10,6 @@
     <module>website</module>
     <module>search</module>
     <module>fares</module>
+    <module>checkin</module>
   </modules>
 </project>

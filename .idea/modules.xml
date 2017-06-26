@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/checkin/checkin.iml" filepath="$PROJECT_DIR$/checkin/checkin.iml" />
       <module fileurl="file://$PROJECT_DIR$/fares/fares.iml" filepath="$PROJECT_DIR$/fares/fares.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/learn-spring-microservices-complete.iml" filepath="$PROJECT_DIR$/.idea/learn-spring-microservices-complete.iml" />
       <module fileurl="file://$PROJECT_DIR$/search/search.iml" filepath="$PROJECT_DIR$/search/search.iml" />

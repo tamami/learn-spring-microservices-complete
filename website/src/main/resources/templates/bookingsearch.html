@@ -5,7 +5,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <title>www.flybrownfield.com</title>
 
-    <link href="/css/main.css" th:href="@{/css/main.css" rel="stylesheet" media="screen"/>
+    <link href="/css/main.css" th:href="@{/css/main.css}" rel="stylesheet" media="screen"/>
 </head>
 <body>
 <nav>
@@ -30,7 +30,7 @@
             </tr>
         </table>
 
-        <div th:if="${uidata.selectedFight != null}">
+        <div th:if="${uidata.selectedFlight != null}">
             <h3>
                 <table>
                     <tr>
@@ -39,8 +39,8 @@
                         <td th:text="${uidata.selectedFlight.destination}" />
                         <td th:text="${uidata.selectedFlight.flightDate}" />
 
-                        <td th:text="${uidata.selectedFlight.firstName}" />
-                        <td th:text="${uidata.selectedFlight.lastName}" />
+                        <td th:text="${uidata.passenger.firstName}" />
+                        <td th:text="${uidata.passenger.lastName}" />
 
                         <td>
                             <a th:href="@{/checkin/{flightNumber}/{origin}/{destination}/{flightDate}/{fare}/{firstName}/{lastName}/{gender}/{bookingId}(
@@ -52,7 +52,7 @@
     firstName=${uidata.passenger.firstName},
     lastName=${uidata.passenger.lastName},
     gender=${uidata.passenger.gender},
-    bookingId=${uidata.bookingid})}">CheckIn</a>
+    bookingId=${uidata.bookingId})}">CheckIn</a>
 
                         </td>
                     </tr>
